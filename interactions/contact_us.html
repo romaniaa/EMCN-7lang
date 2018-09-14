@@ -1,0 +1,84 @@
+<!-- THE VALUE IN THIS DEFINES WHETHER THE PAGE IS BLUE/PURPLE/BLUE -->
+<!--#set var="color" value="purple" -->
+<!-- Use this variable to set the page title -->
+<!--#set var="title_en" value="Contact Us" -->
+<!--#set var="title_fr" value="Contact Us" -->
+<!--#set var="title_es" value="Contact Us" -->
+
+<!--#include virtual="/_includes/structural/01_head.html" -->
+<!--#include virtual="/_includes/headers/02_mainpage.html" -->
+<!--#include virtual="/_includes/navigation/03_navigation.html" -->
+
+
+
+  <!-- MAIN CONTENT -->
+  <div id="main-content">
+  	<section id="content-twothirds">
+      <div id="accent-bar" class="<!--#echo var="color" -->-bg"></div>
+
+      <!-- LANGUAGE CONTENT -->
+      <div id="main-content-content" class="">
+    		<span class="corporate-title">EDMONTON MENNONITE CENTRE FOR NEWCOMERS</span>
+        <div id="main-content-content-corporate-contactbar">
+          <div id="main-content-content-corporate-address">
+            <h4>11713 – 82 Street NW<br/>Edmonton, Alberta<br/>T5B 2V9</h4>
+          </div>
+          <div id="main-content-content-corporate-contacts">
+            <h4>Phone: <a href="tel:7804247709">780 424 7709</a><br/>Fax: <a href="tel:7804247736">780 424 7736</a><br/>Email: <a href="mailto:info@emcn.ab.ca">info@emcn.ab.ca</a></h4>
+          </div>
+        </div>
+
+        <form class="cf" method="post" action="/php/contact_form.php">
+          <div class="half left cf">
+            <input type="text" id="input-first-name" name="input-first-name" placeholder="First Name" style="width:47%;display:inline-block;">
+            <input type="text" id="input-last-name" name="input-last-name" placeholder="Last Name" style="width:47%;display:inline-block;margin-left:1em;">
+            <input type="email" id="input-email" name="input-email" placeholder="Email" style="width:47%;display:inline-block;">
+            <input type="tel" id="input-phone" name="input-phone" placeholder="Phone" style="width:47%;display:inline-block;margin-left:1em;">
+          </div>
+          <div class="half right cf">
+            <textarea rows="13" cols="85" id="input-personal-statement" name="input-personal-statement" placeholder="Message"></textarea>
+          </div>
+          <input type="submit" value="SUBMIT" id="input-submit" class="<!--#echo var="color" -->" style="border: 4px solid #95358C;">
+        </form>
+
+      </div>
+
+
+
+  	</section>
+
+
+    <!-- SIDEBAR -->
+  	<section id="sidebar">
+      <div id="accent-bar" class="<!--#echo var="color" -->-bg"></div>
+
+      <!-- LANGUAGE CONTENT -->
+      <div id="sidebar-content" class="">
+    		<h3 class="sidebar-title">EMCN at NOVA Plaza</h3>
+    		<p>8914 – 118 Avenue<br/>Edmonton, Alberta<br/>T5B 0T6</p>
+        <p>Phone: <a href="tel:7804217400">780 421 7400</a><br/>Fax: <a href="tel:7804284252">780 428 4252</a></p>
+
+        <div id="accent-bar" class="<!--#echo var="color" -->-bg"></div>
+        <h3 class="sidebar-title">EMCN at Welcome Centre for Immigrants</h3>
+    		<p>#200,Tower II, Millbourne Market Mall<br/>(38 Avenue and Millwoods Road)<br/>Edmonton, Alberta<br/>T6K 3L6</p>
+        <p>Phone: <a href="tel:7804626924">780 462 6924</a><br/>Fax: <a href="tel:7804666594">780 466 6594</a></p>
+
+        <div id="accent-bar" class="<!--#echo var="color" -->-bg"></div>
+        <h3 class="sidebar-title">EMCN at Eastwood School</h3>
+    		<p>12023-81 Street NW<br/>Edmonton, Alberta<br/>T5B 2S9</p>
+        <p>Phone: <a href="tel:7809452295">780 945 2295</a></p>
+
+        <div id="accent-bar" class="<!--#echo var="color" -->-bg"></div>
+        <h3 class="sidebar-title">EMCN West End Community Connections</h3>
+    		<p>10030 - 167 Street NW<br/>Edmonton, Alberta<br/>T5P 3W4</p>
+        <p>Phone: <a href="tel:7804897004">780 489 7004</a><br/>Fax: <a href="tel:7804897002">780 489 7002</a></p>
+
+      </div>
+
+
+  	</section>
+  </div>
+
+
+<!--#include virtual="/_includes/footers/05_mainfooter.html" -->
+<!--#include virtual="/_includes/structural/07_closing.html" -->

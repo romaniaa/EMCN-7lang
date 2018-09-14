@@ -1,0 +1,7 @@
+Options Indexes FollowSymLinks Includes
+AddType image/svg+xml svg svgz
+AddEncoding gzip svgz
+AddType  application/x-httpd-php         .php
+AddType  application/x-httpd-php-source  .phps
+AddOutputFilter INCLUDES .html
+AddHandler server-parsed .html
